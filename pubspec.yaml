@@ -1,0 +1,37 @@
+name: agd_barbearia
+description: A new Flutter project.
+
+
+publish_to: 'none' /Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  search_choices: ^1.0.17
+  flutter_masked_text: ^0.8.0
+  flutter_datetime_picker: ^1.3.8
+  date_format: ^1.0.9
+  intl: ^0.17.0
+  provider: ^6.0.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+   - images/
